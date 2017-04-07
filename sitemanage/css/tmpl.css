@@ -1,0 +1,171 @@
+@CHARSET "UTF-8";
+body{
+	margin:0;
+	padding:0;
+	font-size:12px;
+	
+}
+.mk-bar{
+	padding:5px ;
+	/* background:white; */
+	border: 1px solid #eee;
+}
+.single-bar .active{
+	/* color:#2196f3; */
+}
+.btn-link.active{
+	color:#2196f3;	  
+	}
+.btn-link.tri-btn.active{
+
+    background: url(../img/downtriangle.png) no-repeat;
+    background-position: 50% 16px;
+    padding-bottom: 13px;
+}
+.btn-link.white-tri-btn.active{
+
+    background: url(../img/uptriangle.png) no-repeat;
+    background-position: 50% 16px;
+    padding-bottom: 13px;
+}
+.btn-link{
+	text-decoration: none;
+	cursor:pointer;
+}
+.btn-link:hover{
+	color:#03a9f4;
+}
+/* .btn-link:active,.btn-link.active{
+	color:#14e154;
+} */
+.btn-primary{
+	background: #3ea6f3;
+    color: white;
+}
+
+.btn-blue{
+	background: #3ea6f3;
+    color: white;
+}
+/* .btn-blue:hover{
+	background: #57b1f4;
+    color: #f5f5f5;
+} */
+.btn-warn{
+	background: #EA4A36;
+    color: white;
+}
+.btn-round{
+	border-radius: 7px;
+    padding: 3px 7px 4px 7px;
+	
+}
+
+.mk-clearfix{
+	zoom:1;	
+}
+.mk-clearfix .left{
+	float:left;
+}
+.mk-clearfix .right{
+	float:right;
+}
+.mk-clearfix:after{
+	clear:both;
+	content:" ";
+	height:0;
+	overflow:hidden;
+	display:block;
+}
+.left_bar{
+	float:left;
+}
+.right_bar{
+    text-align: right;
+    width: 99%;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+.left_bar .in-block{
+	display: inline-block;
+    vertical-align: middle;
+}
+
+.search_line li{
+
+	margin: 5px 10px;
+}
+a{
+	pointer:cursor;
+}
+.search_line li:first-child{
+	width:108px;
+	margin-right:5px;
+}
+
+.navbar_in{
+	margin:0px;
+	height:50px;
+	border-bottom: 1px solid #808080;
+}
+.navbar_in h1{
+   float: none; 
+   display: inline-block;
+   vertical-align: middle;
+   color: #3AACF3;;
+   line-height: 50px;
+ }
+ .navbar_in .logo {
+ 	float:none;
+ 	display: inline-block;
+    width: initial;
+    height: initial;
+    margin: 0px;
+    vertical-align: middle;
+    background: #3AACF3;
+    padding: 9px;
+ }
+  .navbar_in .logo img{
+    background: #3AACF3;
+    width: 32px;
+    height: 32px;
+ }
+ .navbar_in .user{
+     height: 50px;
+    line-height: 50px;
+ }
+ .navbar_in .login{
+ height:50px;
+ line-height:50px;
+ }
+.mk-body{
+	background:#eee;
+	/* d1ddf3 */
+}
+ .mk-bodyin{
+     width: 1190px;
+    margin: auto;
+    background: white;
+}
+.mk-content{
+}
+.mk-iframe-content{
+	   position: absolute;
+    bottom: 0px;
+    top: 60px;
+    left: 0px;
+    right: 0px; 
+    padding:8px 8px 8px 8px;
+}
+.default-footer{
+	background: #999;
+    padding: 10px 0px;
+    text-align: center;
+	color:white;
+}
+.default-footer span{
+	padding:0px 5px;
+}
+.sidebar_menu{
+    min-height: 550px;
+} 

@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/*S=消除样式公共代码  */
+html{
+	color:#000;
+	background:#FFF;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,form,
+fieldset,input,textarea,p,blockquote,th,td a{
+	margin:0;
+	padding:0;
+}
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+}
+em,strong,th,
+ {
+	font-style:normal;
+	font-weight:normal;
+}
+
+ol,ul {
+	list-style:none;
+}
+
+h1,h2,h3,
+{
+	font-size:100%;
+	font-weight:normal;
+}
+
+
+input,textarea,select {
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+	*font-size:100%; /*to enable resizing for IE*/
+}
+
+img{
+	border:0 none;
+}
+/*E=消除样式公共代码  */
+
+
+/*S=导航样式 */
+.nav{
+	position:fixed;
+	left:80px;
+	top:250px;
+	z-index:999;	
+ }
+.nav span{
+  box-sizing:initial;
+ }
+
+.nav .basicInfo_btn{
+	background-color:#1098D3;	
+	display:block;
+	width:70px;
+	height:50px;
+	color:#fff;	
+}
+.nav .basicInfo_btn span{	
+	display:block;
+	width:35px;
+	height:40px;
+	padding:8px 24px;	
+   
+}
+/*E=导航样式 */

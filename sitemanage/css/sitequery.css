@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+
+.datagrid-header{height:auto!important;}
+.datagrid-htable{height:auto!important;}
+.siteQ_content{	
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;	
+    font-size: 12px;
+}
+.tree_siteQ_content{
+	width: 199px;
+    float: left;
+    height: 100%;
+    border-right: 1px solid #e4e3e3;
+}
+.grid_siteQ_content{
+	 margin-left: 200px;
+    /* margin-right: 20px; */
+    /* padding-right: 30px; */
+    height: 100%;
+    position:relative;
+    margin-top: 10px;
+}
+
+.market_btn{
+	display: inline-block;
+	margin:0px 4px;
+	cursor:pointer;
+}
+
+.grid_panel{
+	width:100%;
+	text-align: center;
+}
+.datagrid-view{
+	background: aliceblue;
+}
+.datagrid-body{
+	background: white;
+}
+.pagination table{
+	float:none;
+	margin:auto;
+}
+.pagination-info{
+	display:none;
+}
+
+.sitetypebar{
+	color:#999;
+	font-size:12px;
+	margin-top: 5px;
+}
+
+
+.grid_siteAppr_content{
+	  height: 100%;
+    position:relative;
+    margin-top: 10px;
+    
+}
+.searchpanel{
+	margin-bottom:10px;
+	
+}
+

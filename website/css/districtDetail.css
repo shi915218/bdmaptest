@@ -1,0 +1,191 @@
+@charset "UTF-8";
+ .detail{  
+	 font-size:12px;
+	 font-family: "微软雅黑";
+   width:1190px;
+   margin:0 auto;
+   margin-top:60px;
+   border-left:1px solid #8F949A;
+   border-right:1px solid #8F949A;
+   margin-bottom:20px;
+ }
+ 
+ .detail_header {
+   text-align: center;
+ }
+ 
+ .underline{
+  clear:both;
+  margin-top:20px;
+  margin-bottom:20px;
+  border-bottom:1px solid #DDDED6;
+ }
+/* S= 导航样式*/
+
+
+.nav .districtSite_btn{
+	background-color:#F2F3E3;	
+	display:block;
+	width:55px;
+	height:50px;
+	color:black;
+}
+.nav .districtSite_btn span{	
+	display:block;
+	width:40px;
+	height:40px;
+	margin-left:12px;	
+   padding-top:4px;
+ }
+/* E= 导航样式*/
+
+
+/* S=基本信息 */
+  #basicInfo h3{
+    text-align: center;  
+   
+  }
+   #basicInfo .picDiv{
+    height:260px;
+    width:400px;
+    margin:20px auto;
+  }
+   #basicInfo .picDiv img{
+   width:100%;
+   height:100%;
+  }
+  
+   #basicInfo .introduce{  
+   width:820px;
+   margin:0 auto;
+   text-indent:2em;
+   line-height:25px;
+  }
+
+ #basicInfo .tableDiv{
+   margin-top:20px;
+  }
+#basicInfo .tableDiv table{
+   width:660px;
+   margin:0 auto;
+   font-size:15px;  
+  }
+  
+  #basicInfo .tableDiv table tr{
+    height:25px;
+  }
+   #basicInfo .tableDiv table th,td{
+ 	border:1px solid #cccccc;
+  }
+  #basicInfo .streetOutdoor{
+  height:200px;
+    position:relative;
+    width:820px;
+    margin:10px auto;
+    overflow:hidden;
+  }
+ #basicInfo .streetOutdoor h1{
+   text-align:center;
+  }
+  #basicInfo .streetOutdoor .pic_href{
+  width:2850px;
+  margin:20px auto;
+  position:absolute; 
+   overflow:hidden; 
+  }
+   #basicInfo .streetOutdoor .pic_href a div{
+    float:left; 
+  }
+  
+   #basicInfo .streetOutdoor .btn_left{
+    display:inline-block;
+    height:45px;
+    width:17px;
+    background: url(../images/zuo.png);
+    position:absolute;
+    left:0px;
+    top:100px;
+    z-index:999;
+    cursor:pointer;
+  }
+   #basicInfo .streetOutdoor .btn_right{
+    display:inline-block;
+    height:45px;
+    width:17px;
+    background: url(../images/you.png);
+    right:0px;
+     position:absolute;
+    top:100px;
+    z-index:999;
+    cursor:pointer;
+  }
+/* E=基本信息 */
+
+
+/* S=商圈网点 */
+#districtSite{
+	 width:820px;
+	 margin:0 auto;	
+	 margin-bottom:50px;		
+}
+#districtSite h3{
+	text-align:center;
+	margin-bottom:50px;
+}
+#districtSite .districtSite_content{	
+	border-top:1px solid #F2F2F2;
+	border-left:1px solid #F2F2F2;
+	width:820px;
+	height:400px;
+}
+#districtSite .districtSite_detail{
+	width:408px;	
+	height:100px;
+	float:left;
+	border-right:1px solid #F2F2F2;
+	border-bottom:1px solid #F2F2F2;
+}
+
+#districtSite .districtSite_detail div{
+	float:left;
+	margin-left:12px;
+	margin-top:12px;
+	
+}
+#districtSite .districtSite_detail ul li{
+	padding-bottom:5px;
+}
+#districtSite .districtSite_detail ul li span{
+	margin-right:20px;
+}
+#districtSite .pageDiv{
+	height:35px;
+	text-align: center;	
+    margin-top:20px;
+	line-height: 30px;
+	text-align: center;
+}
+#districtSite .pageDiv ul{	
+	
+	text-align: center;	
+	margin:0 auto;	
+	width:400px;
+}
+#districtSite .pageDiv ul li{
+	float:left;
+	text-align: center;	
+	margin-left:10px;
+}
+#districtSite .pageDiv ul li a{		
+	text-align: center;	
+    padding:8px 15px;
+	background-color:#EDECEC;
+	cursor: pointer;
+	
+}
+#districtSite .pageDiv ul li a.active{	
+	background-color:#E4392A;
+	color:#fff;	
+}
+/* E=商圈网点 */
+

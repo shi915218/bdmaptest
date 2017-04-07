@@ -1,0 +1,145 @@
+@charset "UTF-8";
+ 
+ .detail{  
+   width:1190px;
+   margin:0 auto;
+   margin-top:60px;
+   border-left:1px solid #8F949A;
+   border-right:1px solid #8F949A;
+    font-size:12px;
+	font-family: "微软雅黑";
+ }
+ 
+ .detail_header {
+   text-align: center;
+ }
+ 
+ .underline{
+  clear:both;
+  margin-top:20px;
+  margin-bottom:20px;
+  border-bottom:1px solid #DDDED6;
+ }
+/* S= 导航样式*/
+ 
+.nav .operateReport_btn{
+	background-color:#F2F3E3;	
+	display:block;
+	width:55px;
+	height:50px;
+	color:black;
+}
+.nav .operateReport_btn span{	
+	display:block;
+	width:40px;
+	height:40px;
+	padding:8px 12px;	
+}
+/* E= 导航样式*/
+
+
+/* S=基本信息 */
+  #basicInfo h3{
+    text-align: center;  
+   
+  }
+   #basicInfo .picDiv{
+    height:260px;
+    width:400px;
+    margin:20px auto;
+  }
+   #basicInfo .picDiv img{
+   width:100%;
+   height:100%;
+  }
+  
+   #basicInfo .introduce{  
+   width:820px;
+   margin:0 auto;
+   text-indent:2em;
+   line-height:25px;
+  }
+
+ #basicInfo .tableDiv{
+   margin-top:20px;
+  }
+#basicInfo .tableDiv table{
+   width:660px;
+   margin:0 auto;
+  }
+  
+  #basicInfo .streetOutdoor{
+  height:200px;
+    position:relative;
+    width:820px;
+    margin:10px auto;
+    overflow:hidden;
+  }
+ #basicInfo .streetOutdoor h1{
+   text-align:center;
+  }
+  #basicInfo .streetOutdoor .pic_href{
+  width:2850px;
+  margin:20px auto;
+  position:absolute; 
+   overflow:hidden; 
+  }
+   #basicInfo .streetOutdoor .pic_href a div{
+    float:left; 
+  }
+  
+   #basicInfo .streetOutdoor .btn_left{
+    display:inline-block;
+    height:45px;
+    width:17px;
+    background: url(../images/zuo.png);
+    position:absolute;
+    left:0px;
+    top:100px;
+    z-index:999;
+    cursor:pointer;
+  }
+   #basicInfo .streetOutdoor .btn_right{
+    display:inline-block;
+    height:45px;
+    width:17px;
+    background: url(../images/you.png);
+    right:0px;
+     position:absolute;
+    top:100px;
+    z-index:999;
+    cursor:pointer;
+  }
+/* E=基本信息 */
+
+
+/* S=经营报告 */
+
+ #operateReport{
+   text-align:center;
+   margin-bottom:20px;
+ }
+ 
+#operateReport select{
+   margin-top:20px;
+   width:100px;
+ }
+ #operateReport .quarterDetail{
+   width:820px;
+   margin:0 auto;
+   margin-top:20px;
+ }
+ #operateReport .quarterDetail h3{
+   margin-bottom:20px;
+ }
+  #operateReport .quarterDetail table th{
+   border:1px solid #cccccc; 
+    background-color:#F2F2F2;
+ }
+ #operateReport .quarterDetail table tr{ 
+   height:30px;
+ }
+  #operateReport .quarterDetail table tr td{ 
+   border:1px solid #cccccc;
+ }
+/* E=经营报告 */
